@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
+}
+
+body {
+    background-color: rgb(28, 28, 31);
+    background: linear-gradient(to bottom, #141b29, #0c111b 300px);
+    /* position: relative; */
+}
+
+#topDiv {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(231, 222, 222);
+    display: flex;
+    justify-content: space-between;
+}
+
+#backHome{
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#backHome:hover{
+    background-color: rgb(204, 192, 192);
+    color: #0c111b;
+}
